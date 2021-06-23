@@ -1,0 +1,36 @@
+{
+  "name": "meet",
+  "version": "1.1.1",
+  "description": "for lingua_questa",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+"
+  },
+  "keywords": ["lingua_questa", "web", "satyam_jha"],
+  "author": "satyam jha",
+  "license": "MIT",
+
+  
+  "dependencies": {
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "redux": "3.7.2",
+    "react-redux": "7.1.0",
+    "lodash": "^4.17.14",
+    "redux-thunk": "2.2.0"
+  },
+  "peerDependencies": {
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "redux": "3.7.2",
+    "react-redux": "7.1.0",
+    "lodash": "^4.17.14",
+    "redux-thunk": "2.2.0"
+  },
+  "files": ["dist/*", "index.d.ts", "CHANGELOG.md", "README.md"]
+}
